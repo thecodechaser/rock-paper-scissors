@@ -60,4 +60,25 @@ function playRound(playerSelection, computerSelection){
     }
 }
 
+function game(){
+    for(let i=0; i<5; i++){
+        let playerSelection=playerPlay();
+       let computerSelection=computerPlay();
+       console.log("**Computer choose: "+ computerSelection+"\n**You choose: "+ playerSelection);
+      let returned=  playRound(playerSelection, computerSelection);
+      console.log(returned+"\n");
+    }
+
+    if(playerScore==computerScore){
+        console.log("Player score: "+playerScore +"\nComputer score: "+computerScore 
+                     +"\nThe Game is tie");
+    } else if(playerScore>computerScore){
+        console.log("Player score: "+playerScore +"\nComputer score: "+computerScore 
+        +"\n You Win! The Game");
+    } else if(computerScore>playerScore){
+        console.log("Player score: "+playerScore +"\nComputer score: "+computerScore 
+        +"\nComputer Wins! The Game");
+    }
+}
+
 
