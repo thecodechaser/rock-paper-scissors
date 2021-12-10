@@ -2,7 +2,7 @@
 
 # Rock Paper Scissors
 
-> Rock Paper Scissors project is a game project to play rock paper scissors with computer, play 5 times with computer then return result.
+> Rock Paper Scissors project is a game project to play rock paper scissors with a computer, User will be given 5 chances and in the end, the result will show on the console and declare the final winner.
 
 ## Screenshots:
 
